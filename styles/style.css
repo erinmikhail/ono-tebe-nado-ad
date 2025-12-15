@@ -9,7 +9,7 @@
 }
 
 body {
-  font-family: 'Raleway', 'Arial', sans-serif;
+  font-family: 'Raleway';
   font-size: 20px;
   line-height: 1.2;
   font-weight: 400;
@@ -41,13 +41,10 @@ body {
   align-items: center;
 }
 
-.header__links-list-item:not(:first-child)::before {
-  content: "•";
-  position: absolute;
-  left: -18px;
-  margin-right: 10px;
-  color: var(--color-black);
+.header__links-list-item_image {
+  margin: 1px;
 }
+
 
 .header__links-list-item_image img {
   display: block;
